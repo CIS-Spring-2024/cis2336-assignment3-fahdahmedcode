@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UH-Sugarland-Cafeteria/menus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/University_of_Houston_seal.svg/300px-University_of_Houston_seal.svg.png" alt="Logo" class="logo-image">
+            <h1>UH-Sugarland-Cafeteria</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <h1>Restaurant Menus</h1>
+        <p> Click one of the buttons below to view a menu or click the all button to view all the meals we offer.</p>
+        <div class="container">
+            <div id="category-buttons">
+                <button class="category-btn" data-category="all">All</button>
+                <button class="category-btn" data-category="breakfast">Breakfast</button>
+                <button class="category-btn" data-category="lunch">Lunch</button>
+                <button class="category-btn" data-category="dinner">Dinner</button>
+                <button class="category-btn" data-category="dessert">Dessert</button>
+            </div>
+        <div id="menu">
+            
+        </div>
+        <div id="cart">
+            <h2>Checkout</h2>
+            <ul id="cart-items">
+                
+            </ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="menu.js" defer></script>
+</body>
+</html>
