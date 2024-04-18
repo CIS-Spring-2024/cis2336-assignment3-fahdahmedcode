@@ -1,4 +1,1 @@
-1.This assignment is graded.
-2.please follow the instructions file posted on canvas
-3.Upload your work to canvas and push all your files to your repository.
-4.clone this repository and start working on the Assignmnet-3
+People are able to view the different menus and order directly on the menu page. Once they click on the submit button it will take them to the checkout page and ask them whether they are doing pick up, deleviry, ask for their address, pay at the restaurant or by card, and ask for their card information.
